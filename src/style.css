@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+nav {
+  height: 70px;
+  /* display: flex; */
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  /* background-color: rgb(188, 192, 194); */
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.nav--header {
+  text-align: center;
+  color: white;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--images {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.hero--images1 {
+  display: flex;
+  flex-direction: column;
+}
+.hero--images2 {
+  display: flex;
+  flex-direction: column;
+}
+.hero--images3 {
+  display: flex;
+  flex-direction: column;
+}
+.hero--images4 {
+  display: flex;
+  flex-direction: column;
+}
+.hero--images5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo1 {
+  /* align-items: center;
+  border-radius: 10px;
+  max-width: 95%;
+  margin-top: 66px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  margin-top: 75px;
+  height: 250px;
+}
+.hero--photo2 {
+  /* align-self: center;
+  border-radius: 10px;
+  max-width: 95%;
+  margin-bottom: 50px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  height: 250px;
+}
+.hero--photo3 {
+  /* align-self: center;
+  border-radius: 10px;
+  max-width: 95%;
+  margin-top: 5px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  height: 250px;
+}
+.hero--photo4 {
+  /* align-self: center;
+  border-radius: 10px;
+  max-width: 95%;
+  margin-top: 40px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  height: 250px;
+}
+.hero--photo5 {
+  /* align-self: center;
+  border-radius: 10px;
+  max-width: 95%;
+  margin: 5px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  height: 250px;
+}
+.hero--photo6 {
+  /* align-self: center;
+  border-radius: 10px;
+  max-width: 50%;
+  margin-bottom: 5px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  height: 250px;
+}
+.hero--photo7 {
+  /* align-self: center;
+  border-radius: 10px;
+  max-width: 100%;
+  margin-top: 5px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  height: 250px;
+}
+.hero--photo8 {
+  /* align-self: center;
+  border-radius: 10px;
+  height: 50%;
+  max-width: 100%;
+  margin-top: 66px; */
+
+  max-width: 100%;
+  border-radius: 9px;
+  margin: 10px;
+  margin-top: 75px;
+  height: 250px;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+  align-self: center;
+  color: white;
+}
+
+.hero--text {
+  margin-top: 0;
+  align-self: center;
+  color: white;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column; /* ADD */
+  position: relative;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+  height: 250px;
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+}
+
+.card--desc {
+  color: white;
+}
